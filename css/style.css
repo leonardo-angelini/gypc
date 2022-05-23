@@ -1,7 +1,7 @@
 html {scroll-behavior: smooth;}
 body {font-family: 'Josefin Sans', sans-serif;}
-.navbartot {background-color: black; height: 150%;}
-#lolle {display: inline-block;}
+#navbartot {background-color: black !important;}
+#lolle {display: inline-block; display: inline-table; text-align: right;}
 .navbar-brand {color: white !important; font-size: 200%; padding-left: 30%; padding-top: 1%; padding-bottom: 1%; 
 	padding-right: 10%;}
 #logo {padding-bottom: 5px; padding-right: 2px}
@@ -11,7 +11,8 @@ nav ul li {display: inline-block;}
 .container-fluid {padding: 0%;}
 .navright {color: white; display: inline-block; font-size: 130%; padding-right: 0px;}
 #insta {padding-left: 12px;}
-#title {color: white; font-size: 5em ; padding-top: 50px; padding-left: 20%; padding-right: 20%;}
+#stagram {padding-right: 12px;}
+#title {color: white; font-size: 5em ; padding-top: 15%; padding-left: 20%; padding-right: 20%;}
 #subtitle{color: white; font-size: 2em;}
 .quiz { padding-right: 25%; padding-left: 25%; text-align: center;}
 #passion {background-color: #0eda58;}
@@ -42,10 +43,12 @@ h3 {padding-top: 10%}
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
-  #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 5%}
+  #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 50%}
 #subtitle {font-size: 1.2em;padding-left: 2%; padding-right: 2%;}
 .quiz {display: block;}
-.navbartot {width: 100%;}
-.navbar-brand{font-size: 180%; padding-left: 1%}
-.navright{font-size: 90%; display: inline-block !important;}
-#insta {padding-left: none}}
+#navbartot {height: 17%;}
+.navbar-brand{font-size: 150%; padding-left: 1%; }
+.navright{font-size: 90%; display: inline-block !important; text-align: left;}
+#insta {padding-left: none;}
+#stagram{padding-right: 15%;}
+.doc{padding-top: 50%;}}
