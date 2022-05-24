@@ -1,6 +1,6 @@
 html {scroll-behavior: smooth;}
 body {font-family: 'Josefin Sans', sans-serif;}
-#navbartot {background-color: black !important; opacity: 0.9}
+#navbartot {background-color: black !important; opacity: 0.9;}
 #lolle {display: inline-block; display: inline-table; text-align: right;}
 .navbar-brand {color: white !important; font-size: 200%; padding-left: 30%; padding-top: 1%; padding-bottom: 1%; 
 	padding-right: 10%;}
@@ -20,7 +20,7 @@ nav ul li {display: inline-block;}
 #energetic {background-color: #0eda58;}
 #relax {background-color: #0eda58;}
 #sadness {background-color: #0eda58;}
-#linkpro {color: white; padding-top: 3%}
+#linkpro {color: white; padding-top: 3%;}
 h2 {padding-top: 8%; color: white;padding-left: 10%; padding-right: 10%;}
 .welcome {color: white;}
 .secondtext {color: white; font-size: 0.8em;}
@@ -29,12 +29,12 @@ h2 {padding-top: 8%; color: white;padding-left: 10%; padding-right: 10%;}
 .thirdtext {color: white; font-size: 0.8em !important;}
 .contact {padding-top: 3%; color: white;}
 .fourthtext {color: white; font-size: 0.8em !important;}
-h3 {padding-top: 10%}
+h3 {padding-top: 10%;}
 .doc {color: white; padding-left: 10%; padding-right: 10%; padding-top: 8%;}
-.pardoc {font-size: 60%}
-.docsub {font-size: 80%}
-.architettura {padding-left: 25%; width: 50%; height: 50%}
-.wireframe {width: 25%; height: 50%; }
+.pardoc {font-size: 60%;}
+.docsub {font-size: 80%;}
+.architettura {padding-left: 25%; width: 50%; height: 50%;}
+.wireframe {width: 25%; height: 50%;}
 .divwiewframe {display: inline-block;}
 #wtitle {color: black !important;}
 /* On screens that are 992px wide or less, the background color is blue */
@@ -46,10 +46,10 @@ h3 {padding-top: 10%}
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
 body {background: black url("img/backgroundphone.jpg") no-repeat fixed center !important;}
- #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 30%}
+ #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 30%;}
 #subtitle {font-size: 1.2em;padding-left: 2%; padding-right: 2%;}
 .quiz {display: block;}
-#navbartot {}
+#navbartot {;}
 .navbar-brand{font-size: 135%; padding-left: 1%; padding-right: 0%; margin-right: 0%;}
 .navright{font-size: 90%; display: inline-block !important;}
 #insta {padding-left: none;}
