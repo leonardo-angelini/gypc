@@ -39,7 +39,9 @@ h3 {padding-top: 10%}
 #wtitle {color: black !important;}
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
-  body {}}
+  body
+.navbar-brand {padding-left: 1%;}
+.doc {padding-top: 15%;}}
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
