@@ -1,10 +1,10 @@
 html {scroll-behavior: smooth;}
 body {font-family: 'Josefin Sans', sans-serif;}
-#navbartot {background-color: black !important;}
+#navbartot {background-color: black !important; opacity: 0.9}
 #lolle {display: inline-block; display: inline-table; text-align: right;}
 .navbar-brand {color: white !important; font-size: 200%; padding-left: 30%; padding-top: 1%; padding-bottom: 1%; 
 	padding-right: 10%;}
-#logo {padding-bottom: 5px; padding-right: 2px}
+#logo {padding-bottom: 5px; padding-right: 2px; opacity: 1;}
 nav ul {list-style-type: none;}
 nav ul li {display: inline-block;}
 .navinfo {font-size: 80%;}
@@ -43,11 +43,12 @@ h3 {padding-top: 10%}
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
-  #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 50%}
+body {background: black url("img/backgroundphone.jpg") no-repeat fixed center !important;}
+ #title {font-size: 2.5em; padding-left: 5%; padding-right: 5%; padding-top: 30%}
 #subtitle {font-size: 1.2em;padding-left: 2%; padding-right: 2%;}
 .quiz {display: block;}
-#navbartot {height: 17%;}
-.navbar-brand{font-size: 150%; padding-left: 1%; }
+#navbartot {}
+.navbar-brand{font-size: 135%; padding-left: 1%; padding-right: 0%; margin-right: 0%;}
 .navright{font-size: 90%; display: inline-block !important;}
 #insta {padding-left: none;}
 #stagram{padding-right: 15%;}
