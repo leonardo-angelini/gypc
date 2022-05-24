@@ -14,20 +14,27 @@
 		<title> GYPC - Directory</title>
 	</head>
 	<body>
-    <!-- navbar -->     
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="navbartot">
-          <ul class="container-fluid" id="lolle">
-            <li><a class="navbar-brand" href="index.html">
-              <img id="logo" src="img/logo.png" width="50" height="50" class="logo" alt="logo">Get Your Playlist Cover</li>
-            <li><a id="stagram" class="navright" href="https://www.instagram.com/gypcweb/">Instagram</a></li>
-            <li><a class="navright" href="index.html">Home</a></li>
-
-            </a>
-          </ul>
-        </nav>  
+    <!-- navbar --> 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="navbartot">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" width="50" height="50" class="logo" alt="logo">Get Your Playlist Cover</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.instagram.com/gypcweb/">Instagram</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+    </ul>
+  </div>
+</nav>           
     <!-- background -->
-    <style>
+        <style>
       body {background: url('img/background.jpg') no-repeat center fixed; background-size: cover;}
+      @media screen and (max-width: 600px) {
+      body {background: url("img/backgroundphone2.jpg") no-repeat center fixed !important;}}
     </style>
     <!-- documentation text --> 
     <h1 class="doc"> 
