@@ -34,7 +34,8 @@ h3 {padding-top: 10%;}
 .pardoc {font-size: 60%;}
 .docsub {font-size: 80%;}
 .architettura {padding-left: 25%; width: 50%; height: 50%;}
-.wireframe {width: 25%; height: 50%;}
+.wireframe {width: 32%; height: 50%;}
+.docimg {width: 60%; height: 50%;}
 .divwiewframe {display: inline-block;}
 #wtitle {color: black !important;}
 /* On screens that are 992px wide or less, the background color is blue */
